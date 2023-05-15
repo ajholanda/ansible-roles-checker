@@ -1,0 +1,7 @@
+---
+- hosts: all
+  vars:
+     googlechrome_state: present
+  roles:
+    - ajholanda.googlechrome
+#    - ajholanda.x2goclient
