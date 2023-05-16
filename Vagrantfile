@@ -19,13 +19,13 @@ vms = {
       'memory' => '512',
       'cpus' => 1, 
       'ip' => "#{PREFIP}.8",
-      'box' => 'generic/fedora37'
+      'box' => 'generic/fedora32'
   },
  'opensuse'  => {
       'memory' => '512',
       'cpus' => 1, 
       'ip' => "#{PREFIP}.16",
-      'box' => 'generic/opensuse42'
+      'box' => 'opensuse/Leap-15.4.x86_64'
   },
   'ubuntu'  => {
       'memory' => '512',
