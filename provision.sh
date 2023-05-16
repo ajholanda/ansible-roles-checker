@@ -1,7 +1,9 @@
 VAGRANT_HOME="/home/vagrant"
 
 # PACKAGEs
-PKG=$(which dnf || which apt-get || which zypper)
+PKG=$(which dnf 2>/dev/null \
+      || which apt-get 2>/dev/null \
+      || which zypper 2>/dev/null)
 
 ## Update package sources list on Debian OS Family
 echo 'PKG: Updating the list of packages...'; $PKG update >/dev/null
