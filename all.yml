@@ -4,4 +4,6 @@
      googlechrome_state: present
   roles:
     - ajholanda.googlechrome
-#    - ajholanda.x2goclient
+    - role: ajholanda.vscode
+      tags: vscode
+    - ajholanda.x2goclient
