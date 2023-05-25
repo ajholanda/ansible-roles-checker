@@ -1,7 +1,9 @@
 ---
 - hosts: all
   roles:
-    - ajholanda.googlechrome
+    - role: ajholanda.googlechrome
+      tags: googlechrome
     - role: ajholanda.vscode
       tags: vscode
-    - ajholanda.x2goclient
+    - role: ajholanda.x2goclient
+      tags: x2goclient
