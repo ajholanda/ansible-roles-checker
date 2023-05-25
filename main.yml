@@ -1,7 +1,5 @@
 ---
 - hosts: all
-  vars:
-     googlechrome_state: present
   roles:
     - ajholanda.googlechrome
     - role: ajholanda.vscode
