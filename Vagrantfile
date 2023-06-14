@@ -13,7 +13,7 @@ vms = {
       'memory' => '512',
       'cpus' => 1,
       'ip' => "#{PREFIP}.4",
-      'box' => 'debian/bullseye64'
+      'box' => 'debian/buster64'
   },
  'fedora'  => {
       'memory' => '512',
